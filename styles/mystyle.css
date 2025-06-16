@@ -1,21 +1,33 @@
 body {
-    background-color: rgba(255, 255, 255, 0.537);
-    }
-    h1 {
-    padding: 8px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(87, 60, 60)
-    background-color: rgba(255, 255, 255, 0.71);
-    }
-    h2 {
-        padding: 8px;
-        font-family: Arial, Helvetica, sans-serif;
-        color: rgb(87, 60, 60)
-        background-color: rgba(255, 255, 255, 0.71);
-        }
-    p {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
-    color: rgb(0, 0, 0);
-    background-color: rgba(255, 255, 255, 0.559);
-    text-align: left;
-    }
+  background-color: rgba(255, 255, 255, 0.54);
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+h1, h2 {
+  padding: 8px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(87, 60, 60);
+  background-color: rgba(255, 255, 255, 0.71);
+  margin: 0 0 16px 0;
+  border-radius: 4px;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+p {
+  color: rgb(0, 0, 0);
+  background-color: rgba(255, 255, 255, 0.56);
+  text-align: left;
+  padding: 8px 12px;
+  margin: 0 0 12px 0;
+  border-radius: 4px;
+}
